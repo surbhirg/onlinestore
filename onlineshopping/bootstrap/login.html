@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bootstrap Demo</title>
+        <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+ 
+    <body class="container-fluid">
+
+
+        <h2 class="text-center pt-4 pb-4">Naresh Institute and Technologies</h2>
+        <div class="navbar navbar-expand-lg navbar-dark bg-dark rounded-3">
+            <div>
+               <button class="navbar-toggler" data-bs-target="#menu" data-bs-toggle="collapse">
+                   <span class="navbar-toggler-icon"></span>
+               </button>               
+               <div class="navbar-nav me-auto navbar-collapse collapse" id="menu">
+                    <div class="nav-item">
+                        <a href="Home.html" class="nav-link"><span class="bi bi-house-fill"></span>Home</a>
+                    </div>
+                    <div class="nav-item">
+                        <a href="About.html" target="frameBody" class="nav-link"><span class="bi bi-question-circle"></span>About</a>
+                    </div>
+                    <div class="nav-item">
+                        <a href="Service.html" class="nav-link"><span class="bi bi-question-circle"></span>Service</a>
+                    </div>
+                    <div class="nav-item">
+                        <a href="Contact Us.html" class="nav-link"><span class="bi bi-phone"></span>Contact Us</a>
+                    </div>
+
+
+                    <div class="nav-item">
+                    <div class="dropdown">
+                        <button class="dropdown-toggle btn btn-dark" data-bs-target="#item" data-bs-toggle="dropdown" >
+                            <span class="bi bi-box-arrow-in-right"></span> Sign In
+                        </button>
+                        <div class="dropdown-menu collapse dropdown-menu-light" id="items">
+                            <div class="dropdown-item">
+                               <a href="login.html"><span class="bi bi-box-arrow-in-right text-black">Sign In</span></a>
+                            </div>
+                            <div class="dropdown-item">
+                               <a href="register.html"><span class="bi bi-person-plus-fill text-black">Sign Up</span></a>
+                            </div>
+                            <div class="dropdown-item">
+                               <a href="password.html"><span class="bi bi-unlock-fill text-black">Change Password</span></a>
+                            </div>                           
+                      </div>
+                    </div>
+                    </div>                 
+
+                 </div>               
+            </div>
+        </div>
+
+
+            <div class="logform">
+                <div class="d-flex justify-content-center align-items-center" style="height: 300px;">
+                    <form class="log-f border border-1 rounded rounded-4 border-dark">
+                        <h3 class="mt-2 mb-5 p-lg-4">Please Login Your Account</h3>
+                        <div class="mt-5 p-2">
+                              <label class="form label" for="Email ID">Email ID</label>
+                              <div class="input-group">
+                                <span class="bi bi-person-fill input-group-text bg-danger text-white"></span>
+                                <input class="form-control" type="Email ID" placeholder="Email ID">
+                                <span class="bi bi-star-fill input-group-text bg-danger text-white"></span>
+                              </div>                 
+                        </div>
+                        <div class="mt-2 p-2">
+                               <label class="form label" for="Password">Password</label>
+                               <div class="input-group">
+                                 <span class="bi bi-unlock input-group-text bg-danger text-white"></span>
+                                 <input class="form-control" type="Password" placeholder="Password">
+                                 <span class="bi bi-star-fill input-group-text bg-danger text-white"></span>
+                               </div>
+                        </div>
+              
+                        <div class="m-5">
+                            <div class="row">
+                                <div class="col-6">
+                                    <button class="btn btn-warning bi bi-person-plus w-100">Sign Up</button>
+                                </div>
+                                <div class="col-6">
+                                    <button class="btn btn-success bi bi-box-arrow-in-right w-100">Sign In</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="img1">
+                    <img src="../Public/project Images/log in1.gif" width="180" height="180">
+                </div>
+            </div>
+    
+
+        <section class="footer bg-dark text-white mt-5">
+            <div class="footer-container">
+                <div class="row">
+                    <h7 class="mb-4 text-center">Naresh Technologies</h7>   
+                    <div class="foot ms-5 d-flex">
+                        <div class="col-4">
+                            <ul>
+                               <li class="bi bi-facebook"><a href="http://www.facebook.com">Facebook</a></li>
+                               <li class="bi bi-google"><a href="http://www.Google.com">Google</a></li>
+                               <li class="bi bi-twitter"><a href="http://www.Twitter.com">Twitter</a></li>
+                               <li class="bi bi-youtube"><a href="http://www.Youtube.com">Youtube</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-4">
+                            <ul>
+                                <li>Home</li>
+                                <li>About</li>
+                                <li>Service</li>
+                                <li>Contact</li>
+                            </ul>
+                        </div>
+                        <div class="col-4">
+                            <ul>
+                                <li>Name : Naresh Istitute</li>
+                                <li>Email : info@nareshit.com</li>
+                                <li>Contact : +91-xxxxxxxxxx</li>
+                                <li>Address : Sr nagar, Hyderabad, Telangana, India</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>                                    
+        </section>
+
+
+        <script src="../node_modules/jquery/dist/jquery.js"></script>
+        <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    </body>
+</html>

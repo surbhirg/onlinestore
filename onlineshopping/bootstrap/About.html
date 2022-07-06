@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project One</title>
+        <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+
+    <body class="container">
+        <h2 class="text-center pt-4 pb-4">Naresh Institute and Technologies</h2>
+        <div class="navbar navbar-expand-lg navbar-dark bg-dark rounded-3">
+
+
+            <div>
+               <button class="navbar-toggler" data-bs-target="#menu" data-bs-toggle="collapse">
+                   <span class="navbar-toggler-icon"></span>
+               </button>               
+               <div class="navbar-nav me-auto navbar-collapse collapse" id="menu">
+                    <div class="nav-item">
+                        <a href="Home.html" class="nav-link"><span class="bi bi-house-fill"></span>Home</a>
+                    </div>
+                    <div class="nav-item">
+                        <a href="About.html" target="frameBody" class="nav-link"><span class="bi bi-question-circle"></span>About</a>
+                    </div>
+                    <div class="nav-item">
+                        <a href="Service.html" class="nav-link"><span class="bi bi-question-circle"></span>Service</a>
+                    </div>
+                    <div class="nav-item">
+                        <a href="Contact Us.html" class="nav-link"><span class="bi bi-phone"></span>Contact Us</a>
+                    </div>
+
+
+                    <div class="nav-item">
+                    <div class="dropdown">
+                        <button class="dropdown-toggle btn btn-dark" data-bs-target="#item" data-bs-toggle="dropdown" >
+                            <span class="bi bi-box-arrow-in-right"></span> Sign In
+                        </button>
+                        <div class="dropdown-menu collapse dropdown-menu-light" id="items">
+                            <div class="dropdown-item">
+                               <a href="login.html"><span class="bi bi-box-arrow-in-right text-black">Sign In</span></a>
+                            </div>
+                            <div class="dropdown-item">
+                               <a href="register.html"><span class="bi bi-person-plus-fill text-black">Sign Up</span></a>
+                            </div>
+                            <div class="dropdown-item">
+                               <a href="password.html"><span class="bi bi-unlock-fill text-black">Change Password</span></a>
+                            </div>                           
+                      </div>
+                    </div>
+                    </div>                 
+
+                 </div>               
+            </div>
+        </div>
+
+          
+        
+
+        <div class="table-responsive mt-5 border-info">
+            <div class="d-flex mb-4 border-1 bg-info">
+                <h8>Details</h8>
+                <div >
+                    <button class="bi bi-funnel-fill rounded-3">Filter</button>
+                </div>
+                
+            </div>
+            <div>
+                <table class="table table-hover table-striped table-bordered">
+                    <thead>
+                        <tr class="table-row">
+                            <td>id</td>
+                            <td>Course Name</td>
+                            <td>Faculty Name</td>
+                            <td>Duration</td>
+                            <td>Timings</td>
+                            <td>view</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Angular 8</td>
+                            <td>Sudhakar sharma sir	</td>
+                            <td>45 days	</td>
+                            <td>07:30 AM</td>
+                            <td>
+                                <button data-bs-target="#coursedetails1" data-bs-toggle="modal" class="btn btn-warning rounded-3">view<span class="bi bi-eye "></span></button>
+                                <div class="modal fade" id="coursedetails1">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                           <div class="modal-header">
+                                               <h14>Details:</h14>                                  
+                                               <button class="btn-close" data-bs-dismiss="modal"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <table class="table table-borderless">
+                                        <tbody>
+                                            <tr>
+                                                <td class="course">Course:</td>
+                                                <td>Angular 8</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="course">Faculty:</td>
+                                                <td>Sudhakar sharma sir</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="course">Durations:</td>
+                                                <td>45 days</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="course">Timings:</td>
+                                                <td>07:30 AM</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="course">Description:</td>
+                                                <td>Angular 8 is a client-side TypeScript based framework which is used to create dynamic web applications. It is very similar to its previous versions except having some extensive features.</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>                         
+                                </div>
+                            
+                                <div class="modal-footer">
+                                    <button data-bs-dismiss="modal" class="btn btn-warning">Close</button>
+                                </div>
+                              </div>         
+                            </div>
+                            </div>
+        
+                            </td>
+    
+                        <tr>
+                            <td>2</td>
+                            <td>Node Js</td>
+                            <td>Samba sir</td>
+                            <td>45 days	</td>
+                            <td>9:00 AM</td>
+                            <td>
+                                <button data-bs-target="#coursedetails2" data-bs-toggle="modal" class="btn btn-warning rounded-3">view<span class="bi bi-eye "></span></button>
+                                <div class="modal fade" id="coursedetails2">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                           <div class="modal-header">
+                                               <h14>Details:</h14>                                  
+                                               <button class="btn-close" data-bs-dismiss="modal"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <table class="table table-borderless">
+                                        <tbody>
+                                            <tr>
+                                                <td class="course">Course:</td>
+                                                <td>Node Js</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="course">Faculty:</td>
+                                                <td>Samba sir</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="course">Durations:</td>
+                                                <td>45 days</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="course">Timings:</td>
+                                                <td>9:30 AM</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="course">Description:</td>
+                                                <td>Node.js connects the ease of a scripting language (JavaScript) with the power of Unix network programming. Node.js was built on the Google V8 JavaScript engine since it was open-sourced under the BSD license.</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>                         
+                                </div>
+                            
+                                <div class="modal-footer">
+                                    <button data-bs-dismiss="modal" class="btn btn-warning">Close</button>
+                                </div>
+                              </div>         
+                            </div>
+                            </div>
+        
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Java</td>
+                            <td>Hari krishna sir</td>
+                            <td>60 days	</td>
+                            <td>4:30 AM</td>
+                            <td>
+                                <button data-bs-target="#coursedetails3" data-bs-toggle="modal" class="btn btn-warning rounded-3">view<span class="bi bi-eye "></span></button>
+                                <div class="modal fade" id="coursedetails3">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                           <div class="modal-header">
+                                               <h14>Details:</h14>                                  
+                                               <button class="btn-close" data-bs-dismiss="modal"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <table class="table table-borderless">
+                                        <tbody>
+                                            <tr>
+                                                <td class="course">Course:</td>
+                                                <td>Java</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="course">Faculty:</td>
+                                                <td>Hari Krishna sir</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="course">Durations:</td>
+                                                <td>60 days</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="course">Timings:</td>
+                                                <td>04:30 PM</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="course">Description:</td>
+                                                <td>Angular 8 is a client-side TypeScript based framework which is used to create dynamic web applications. It is very similar to its previous versions except having some extensive features.</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>                         
+                                </div>
+                            
+                                <div class="modal-footer">
+                                    <button data-bs-dismiss="modal" class="btn btn-warning">Close</button>
+                                </div>
+                              </div>         
+                            </div>
+                            </div>
+        
+                            </td>
+                        </tr>                 
+                    </tbody> 
+                </table>    
+        </div>    
+        
+        
+
+
+
+        <section class="footer bg-dark text-white mt-5">
+            <div class="footer-container">
+                <div class="row">
+                    <h7 class="mb-4 text-center">Naresh Technologies</h7>   
+                    <div class="foot ms-5 d-flex">
+                        <div class="col-4">
+                            <ul>
+                                <li class="bi bi-facebook"><a href="http://www.facebook.com">Facebook</a></li>
+                                <li class="bi bi-google"><a href="http://www.Google.com">Google</a></li>
+                                <li class="bi bi-twitter"><a href="http://www.Twitter.com">Twitter</a></li>
+                                <li class="bi bi-youtube"><a href="http://www.Youtube.com">Youtube</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-4">
+                            <ul>
+                                <li>Home</li>
+                                <li>About</li>
+                                <li>Service</li>
+                                <li>Contact</li>
+                            </ul>
+                        </div>
+                        <div class="col-4">
+                            <ul>
+                                <li>Name : Naresh Istitute</li>
+                                <li>Email : info@nareshit.com</li>
+                                <li>Contact : +91-xxxxxxxxxx</li>
+                                <li>Address : Sr nagar, Hyderabad, Telangana, India</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>                                    
+        </section>
+
+
+     
+    
+         
+        <script src="../node_modules/jquery/dist/jquery.js"></script>
+        <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    </body>
+</html>               
+       
+
+    

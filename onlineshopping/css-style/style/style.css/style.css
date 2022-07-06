@@ -1,0 +1,129 @@
+
+.course-image img:hover{
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+     transform: scale(1.1);
+     transition: 2s;
+}
+.back {
+    background-color: rgb(167, 160, 221);
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    padding: 15px;     
+}
+body {
+    font-family: Arial;
+}
+.section-container{
+    height: 450px;
+    background-color: rgb(167, 160, 221);
+    color: black;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr; 
+    padding: 15px;
+}
+.section-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.section-title~div {
+    margin-bottom: 10px;
+}
+.one {
+    font-size: 80px;
+    color: yellow;
+    text-align: justify;
+}
+.two {
+    font-size: 80px;
+    color: red;
+    text-align: justify;
+}
+.three {
+    font-size: 80px;
+    color: green;
+    text-align: justify;
+}
+.four {
+    font-size: 80px;
+    color: blue;
+    text-align: justify;
+}
+.q1 {
+    text-align: center;
+}
+.student {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 100px;
+    background-color: tan ;
+    padding: 20px;
+}
+.student-container {
+    display: flex;
+    height: 250px;
+    background-color: tan;
+    color: black;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr; 
+    padding: 15px
+    
+}
+.job1 {
+    text-align: center;
+    background-color: tan;
+    padding: 20px;
+    font-size: 12px;
+}  
+h5 {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+}  
+.card-img {
+    margin-top: 30px;
+}
+.card-title {
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.card-text {
+    font-style: italic;
+}
+.services {
+    display: flex;
+}
+.services1 {
+    box-shadow: 2px 5px 8px 12px rgb(84, 82, 82);
+    margin-left: 80px;
+    margin-right: 80px;               
+}
+.services2 {
+    box-shadow: 2px 5px 8px 12px rgb(84, 82, 82);
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.services3 {
+    box-shadow: 2px 5px 8px 12px rgb(84, 82, 82);
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.footer {
+    padding: 30px;
+}
+.footer li {
+    padding: 8px;
+}
+body { 
+    
+    box-shadow: 2px 5px 8px 12px rgb(84, 82, 82);
+}
+

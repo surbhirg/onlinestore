@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bootstrap Demo</title>
+        <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+ 
+    <body class="container-fluid">
+
+
+        <h2 class="text-center pt-4 pb-4">Naresh Institute and Technologies</h2>
+        <div class="navbar navbar-expand-lg navbar-dark bg-dark rounded-3">
+            <div>
+               <button class="navbar-toggler" data-bs-target="#menu" data-bs-toggle="collapse">
+                   <span class="navbar-toggler-icon"></span>
+               </button>               
+               <div class="navbar-nav me-auto navbar-collapse collapse" id="menu">
+                    <div class="nav-item">
+                        <a href="Home.html" class="nav-link"><span class="bi bi-house-fill"></span>Home</a>
+                    </div>
+                    <div class="nav-item">
+                        <a href="About.html" target="frameBody" class="nav-link"><span class="bi bi-question-circle"></span>About</a>
+                    </div>
+                    <div class="nav-item">
+                        <a href="Service.html" class="nav-link"><span class="bi bi-question-circle"></span>Service</a>
+                    </div>
+                    <div class="nav-item">
+                        <a href="Contact Us.html" class="nav-link"><span class="bi bi-phone"></span>Contact Us</a>
+                    </div>
+
+
+                    <div class="nav-item">
+                    <div class="dropdown">
+                        <button class="dropdown-toggle btn btn-dark" data-bs-target="#item" data-bs-toggle="dropdown" >
+                            <span class="bi bi-box-arrow-in-right"></span> Sign In
+                        </button>
+                        <div class="dropdown-menu collapse dropdown-menu-light" id="items">
+                            <div class="dropdown-item">
+                               <a href="login.html"><span class="bi bi-box-arrow-in-right text-black">Sign In</span></a>
+                            </div>
+                            <div class="dropdown-item">
+                               <a href="register.html"><span class="bi bi-person-plus-fill text-black">Sign Up</span></a>
+                            </div>
+                            <div class="dropdown-item">
+                               <a href="password.html"><span class="bi bi-unlock-fill text-black">Change Password</span></a>
+                            </div>                           
+                      </div>
+                    </div>
+                    </div>                 
+
+                 </div>               
+            </div>
+        </div>
+
+
+            <div class="regform">
+                <div class="d-flex justify-content-center align-items-center" style="height: 900px;">
+                    <form class="log-f border border-1 rounded rounded-4 border-dark">
+                        <h3 class="mt-2 mb-5 p-4 text-center">Registration Form</h3>
+                        <div class="mt-5 p-2">
+                              <label class="form label" for="Full Name">Full Name :</label>
+                              <div class="input-group">
+                                <input class="form-control" type="Full Name" placeholder="Full Name">
+                              </div>                 
+                        </div>
+                        <div class="p-2">
+                               <label class="form label" for="Email">Email :</label>
+                               <div class="input-group">
+                                 <input class="form-control" type="Email" placeholder="Email Id">
+                               </div>
+                        </div>
+                        <div class="p-2">
+                              <label class="form label" for="Mobile">Mobile :</label>
+                              <div class="input-group">
+                                <input class="form-control" type="number" placeholder="Contact Number">
+                              </div>                 
+                        </div>
+                        <div class="p-2">
+                              <label class="form label" for="Data">DOB :</label>
+                              <div class="input-group">
+                                <input class="form-control" type="date" placeholder="Date Of Birth">
+                              </div>
+                        </div>
+                        <div class="p-2">
+                              <label class="form label" for="Image">Image :</label>
+                              <div class="input-group">
+                                 <input class="form-control" type="file" placeholder="Image">
+                              </div>
+                        </div>
+                        <div class="p-2">
+                             <label class="form label" for="Password">Password :</label>
+                             <div class="input-group">
+                                <input class="form-control" type="Password" placeholder="Password">
+                             </div>
+                        </div>
+                        <div class="p-2">
+                            <label class="form label" for="Confirm Password">Confirm Password :</label>
+                            <div class="input-group">
+                               <input class="form-control" type="Confirm Password" placeholder="Confirm Password">
+                            </div>
+                       </div>
+                                          <div class="p-2">
+                       <input class="form-check-input" type="checkbox">
+                       <label class="form label" for="Confirm Password">I've read and Accept 
+                           <span><a data-bs-target="#coursedetails" data-bs-toggle="modal" class="btn btn-light w-100 text-info">Terms and Conditions</a></span></label>
+                            
+                            
+                            
+                            <div class="modal fade" id="coursedetails">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                       <div class="modal-header">
+                                           <h14 class="terms">Terms and Conditions</h14>
+                                           <button data-bs-dismiss="modal" class="btn-close"></button>
+                                       </div>
+                                       <div>
+                                           <table class="table table-borderless">
+                                               <tr>                             
+                                                   <td class="bi bi-star-fill">  A Terms and Conditions agreement is the agreement that includes the terms, the rules and the guidelines of acceptable behavior and other useful sections to which users must agree in order to use or access your website and mobile app.</td>
+                                               </tr>
+                                               <tr>
+                                                   <td class="bi bi-star-fill">  While most websites seem to have one, there's actually no legal requirement for defining terms and conditions. However, if you are gathering user's personal data, you are required to have a stated Privacy Policy. Terms and Conditions may not be required by law, but it's still a smart thing to include.</td>
+                                               </tr>
+                                           </table>
+                                       </div>
+                                       <div class="modal-footer">
+                                          <button data-bs-dismiss="modal" class="btn btn-warning">Close</button>
+                                       </div>
+                                    </div>         
+                                </div>
+                            </div>                                                   
+                   </div>
+
+                   <div class="p-2">
+                       <label>Gender :</label> 
+                       <input name="Gender" type="radio"><label>Male</label> 
+                       <input name="Gender" type="radio"><label>Female</label>                                                  
+                   </div>
+
+
+                   <div class="m-5 d-flex">                           
+                            <div>
+                                <button class="btn btn-warning w-100 text-white">Already you have an account</button>
+                            </div>
+                            <div class="ms-4">
+                                <button class="btn btn-success w-100 text-white">Register</button>
+                            </div>                          
+                    </div>
+                </form>
+                <div class="img2">
+                    <img src="../Public/project Images/user.png" width="150" height="150">
+                </div>
+            </div>
+        </div>
+           
+
+
+
+            
+            
+    
+
+        <section class="footer bg-dark text-white mt-5">
+            <div class="footer-container">
+                <div class="row">
+                    <h7 class="mb-4 text-center">Naresh Technologies</h7>   
+                    <div class="foot ms-5 d-flex">
+                        <div class="col-4">
+                            <ul>
+                               <li class="bi bi-facebook"><a href="http://www.facebook.com">Facebook</a></li>
+                               <li class="bi bi-google"><a href="http://www.Google.com">Google</a></li>
+                               <li class="bi bi-twitter"><a href="http://www.Twitter.com">Twitter</a></li>
+                               <li class="bi bi-youtube"><a href="http://www.Youtube.com">Youtube</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-4">
+                            <ul>
+                                <li>Home</li>
+                                <li>About</li>
+                                <li>Service</li>
+                                <li>Contact</li>
+                            </ul>
+                        </div>
+                        <div class="col-4">
+                            <ul>
+                                <li>Name : Naresh Istitute</li>
+                                <li>Email : info@nareshit.com</li>
+                                <li>Contact : +91-xxxxxxxxxx</li>
+                                <li>Address : Sr nagar, Hyderabad, Telangana, India</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>                                    
+        </section>
+
+
+        <script src="../node_modules/jquery/dist/jquery.js"></script>
+        <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    </body>
+</html>
